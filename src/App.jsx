@@ -4,6 +4,7 @@ import Help from "./pages/help"
 import Income from "./pages/income"
 import Product from "./pages/product"
 import Promote from "./pages/promote"
+import Dashboard from "./components/dashboard"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Income />
       <Product />
       <Promote />
+      <Dashboard />
     </>
   )
 }
