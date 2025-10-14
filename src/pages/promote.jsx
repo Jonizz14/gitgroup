@@ -1,11 +1,11 @@
 import React from 'react'
 
-function home() {
+function promote() {
   return (
     <div>
-      ishla
+      
     </div>
   )
 }
 
-export default home
+export default promote

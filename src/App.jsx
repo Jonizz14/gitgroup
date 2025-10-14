@@ -1,8 +1,18 @@
 import React from 'react'
-import home from "./components/home"
+import customer from "./components/customer"
+import help from "./components/help"
+import income from "./components/income"
+import product from "./components/product"
+import promote from "./components/prome"
 
 function App() {
-  <home />
+  <>
+    <customer />
+    <help />
+    <income />
+    <product />
+    <promote />
+  </>
 }
 
 export default App
