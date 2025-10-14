@@ -1,18 +1,20 @@
 import React from 'react'
-import customer from "./pages/customer"
-import help from "./pages/help"
-import income from "./pages/income"
-import product from "./pages/product"
-import promote from "./pages/promote"
+import Customer from "./pages/customer"
+import Help from "./pages/help"
+import Income from "./pages/income"
+import Product from "./pages/product"
+import Promote from "./pages/promote"
 
 function App() {
-  <>
-    <customer />
-    <help />
-    <income />
-    <product />
-    <promote />
-  </>
+  return (
+    <>
+      <Customer />
+      <Help />
+      <Income />
+      <Product />
+      <Promote />
+    </>
+  )
 }
 
 export default App
