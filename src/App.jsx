@@ -1,9 +1,9 @@
 import React from 'react'
-import customer from "./components/customer"
-import help from "./components/help"
-import income from "./components/income"
-import product from "./components/product"
-import promote from "./components/prome"
+import customer from "./pages/customer"
+import help from "./pages/help"
+import income from "./pages/income"
+import product from "./pages/product"
+import promote from "./pages/promote"
 
 function App() {
   <>
